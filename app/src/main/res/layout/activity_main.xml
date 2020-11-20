@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="com.geospark.example.MainActivity">
+
+    <TextView
+        android:id="@+id/txtStartTracking"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Start Tracking"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtCreateUser"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/txtStartTracking"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="CreateUser"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtStopTracking"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txtStartTracking"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="StopTracking"
+        android:textSize="30sp" />
+
+</RelativeLayout>
